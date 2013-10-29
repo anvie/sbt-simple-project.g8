@@ -2,10 +2,11 @@ organization := "$organization$"
 
 name := "$app_name;format="camel"$"
 
+version := "$version$"
+
 description := "$description$"
 
-scalaVersion := "2.9.2"
-
+scalaVersion := "$scalaVersion$"
 
 
 resolvers ++= Seq(
