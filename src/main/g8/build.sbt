@@ -17,11 +17,12 @@ resolvers ++= Seq(
 )
 
 libraryDependencies ++= Seq(
-    "org.specs2" % "specs2_2.9.2" % "1.12.4.1",
+    "org.specs2" %% "specs2" % "1.14",
     "ch.qos.logback" % "logback-classic" % "1.0.13"
 )
 
-EclipseKeys.withSource := true
+//enable this if eclipse plugin activated
+//EclipseKeys.withSource := true
 
 
 publishTo <<= version { (v:String) =>
