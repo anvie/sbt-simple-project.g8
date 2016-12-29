@@ -4,7 +4,7 @@ name := "$app_name;format="camel"$"
 
 version := "$version$"
 
-description := "$description$"
+desc := "$desc$"
 
 scalaVersion := "$scalaVersion$"
 
